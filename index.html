@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda Automotiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <div id="login-screen">
+    <h2 class="titulo">AGENDA AUTOMOTIVA</h2>
+    <div class="login-box">
+      <div class="logo">
+        <img src="logo.jpeg.png" alt="Logo Automotiva" />
+      </div>
+      <input type="text" id="login-user" placeholder="USUÁRIO" />
+      <input type="password" id="login-pass" placeholder="SENHA" />
+      <button id="login-btn">ENTRAR</button>
+    </div>
+  </div>
+
+  
+  <div id="main-screen" class="hidden">
+    <div class="header">Cadastro de Recursos</div>
+    <div class="form">
+      <input type="text" id="placaDoCarro" placeholder="Placa do Carro" required />
+      <input type="text" id="modeloDoCarro" placeholder="Modelo do Carro" required />
+      <input type="text" id="marcaDoCarro" placeholder="Marca do Carro" required />
+      <input type="number" id="anoDoCarro" placeholder="Ano do Carro" required />
+    </div>
+    <div class="buttons">
+      <button id="incluir" class="green">INCLUIR</button>
+      <button id="editar" class="orange">EDITAR</button>
+      <button id="salvar" class="blue">SALVAR</button>
+      <button id="cancelar" class="white">CANCELAR</button>
+      <button id="excluir" class="red">EXCLUIR</button>
+    </div>
+    <div class="nav">
+      <button id="first">|&lt;</button>
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+      <button id="last">&gt;|</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
